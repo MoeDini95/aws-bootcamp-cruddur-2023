@@ -1,3 +1,4 @@
 # Week 0 — Billing and Architecture
 
-Hello World 
+To do List:
+1. [ ] create an admin account 
