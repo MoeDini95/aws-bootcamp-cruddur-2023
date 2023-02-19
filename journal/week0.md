@@ -4,4 +4,4 @@ To do List:
 1. [ ] create an admin account 
 
 
-Creating a budget:
+# Creating a budget:
