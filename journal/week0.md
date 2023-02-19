@@ -39,13 +39,15 @@ Created an SNS topic to alert me on my Billing alarm via email.
 
 
 # Generate AWS Credentials and install AWS CLI on Gitpod
+
  <img src= ./images/GitpodConfig.png>
- 
+
 Adding this yaml config file installs the AWS CLI onto Gitpod.
 
 
 
 <img src= ./images/CLIVari.png>
+
 Set the environment variables using 'export' followed by the AWS credentials. 
 
 
