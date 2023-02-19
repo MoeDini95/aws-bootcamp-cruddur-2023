@@ -2,7 +2,7 @@
 
 # Required Homework Tasks
 1. [X] Create an Admin User and Group within the AWS console
-2. [ ] Create a Budget and Billing alarm
+2. [X] Create a Budget and Billing alarm
 3. [ ] Create an SNS topic
 4. [ ] Generate AWS Credentials and install AWS CLI on Gitpod
 5. [ ] Recreate a conceptual diagram for Cruddur
@@ -26,6 +26,15 @@ Later created a Group and added my user account. Created another account and not
 <img src= ./images/Budget.png>
 
 Created a budget via the console to track Monthly spending as well as another one to track credits spent. 
+
+
+<img src= ./images/BillingAlarm.png>
+
+Created a Billing alarm through CloudWatch to monitor account charges.
+
+<img src= ./images/SNSTopic.png
+
+
 
 
 
