@@ -42,7 +42,7 @@ Created an SNS topic to alert me on my Billing alarm via email.
 
  <img src= ./images/GitpodConfig.png>
 
-Adding this yaml config file installs the AWS CLI onto Gitpod.
+- Adding this yaml config file installs the AWS CLI onto Gitpod.
 
 
 
