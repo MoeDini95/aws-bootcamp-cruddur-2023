@@ -32,8 +32,9 @@ Created a budget via the console to track Monthly spending as well as another on
 
 Created a Billing alarm through CloudWatch to monitor account charges.
 
-<img src= ./images/SNSTopic.png
+<img src= ./images/SNSTopic.png>
 
+Created an SNS topic to alert me on my Billing alarm via email
 
 
 
