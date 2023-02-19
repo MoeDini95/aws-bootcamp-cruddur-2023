@@ -51,7 +51,7 @@ Created an SNS topic to alert me on my Billing alarm via email.
 Set the environment variables using 'export' followed by the AWS credentials. This essentially stores the variables into Gitpod.
 
 
-<img src= ./images/GitpodVariables>
+<img src= ./images/GitpodVariables.png>
 
 Confirming on the gitpod site that the variables have been saved under User settings.
 
