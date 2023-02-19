@@ -3,7 +3,7 @@
 # Required Homework Tasks
 1. [X] Create an Admin User and Group within the AWS console
 2. [X] Create a Budget and Billing alarm
-3. [ ] Create an SNS topic
+3. [X] Create an SNS topic
 4. [ ] Generate AWS Credentials and install AWS CLI on Gitpod
 5. [ ] Recreate a conceptual diagram for Cruddur
 6. [ ] Recreate a logical diagram for Cruddur
@@ -34,7 +34,21 @@ Created a Billing alarm through CloudWatch to monitor account charges.
 
 <img src= ./images/SNSTopic.png>
 
-Created an SNS topic to alert me on my Billing alarm via email
+Created an SNS topic to alert me on my Billing alarm via email.
+
+
+
+# Generate AWS Credentials and install AWS CLI on Gitpod
+ <img src= ./images/GitpodConfig.png>
+Adding this yaml config file installs the AWS CLI onto Gitpod.
+
+
+
+<img src= ./images/CLIVari.png>
+Set the environment variables using 'export' followed by the AWS credentials. 
+
+
+
 
 
 
