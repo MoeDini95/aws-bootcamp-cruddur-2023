@@ -1,7 +1,7 @@
 # Week 0 — Billing and Architecture
 
 # Required Homework Tasks
-1. [ ] Create an Admin User and Group within the AWS console
+1. [X] Create an Admin User and Group within the AWS console
 2. [ ] Create a Budget and Billing alarm
 3. [ ] Create an SNS topic
 4. [ ] Generate AWS Credentials and install AWS CLI on Gitpod
