@@ -10,5 +10,5 @@
 
 
 # Create an Admin User and Group within the AWS console 
-![User account creation](vscode-local:/IAM%20User.png)
+![User account creation]IAM%20User.png)
 
