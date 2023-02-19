@@ -21,3 +21,11 @@ Later created a Group and added my user account. Created another account and not
 
 
 
+# Create a Budget and Billing alarm
+
+<img src= ./images/Budget.png>
+
+Created a budget via the console to track Monthly spending as well as another one to track credits spent. 
+
+
+
