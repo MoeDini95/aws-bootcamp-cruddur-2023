@@ -11,4 +11,4 @@
 
 # Create an Admin User and Group within the AWS console 
 
-"<img src= ./images/IAM User.png>"
+"<img src= ./images/IAMUser.png>"
