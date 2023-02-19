@@ -13,7 +13,11 @@
 
 <img src= ./images/IAMUser.png>
 
-Created an admin user via the AWS console and provided it admin level permissions
+Created an admin user via the AWS console and provided it admin level permissions.
+
+<img src= ./images/IAMGroup.png>
+
+Later created a Group and added my user account. Created another account and noticed that the 'test-user' account inherited the permissions in the group which was nice.
 
 
 
