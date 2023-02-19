@@ -11,4 +11,4 @@
 
 # Create an Admin User and Group within the AWS console 
 
-![Alt text](vscode-local:/IAM%20User.png)
+"<img src= ./images/IAM User.png>"
