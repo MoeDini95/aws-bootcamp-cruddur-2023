@@ -57,7 +57,7 @@ Confirming on the gitpod site that the variables have been saved under User sett
 
 
 # Recreate a conceptual diagram for Cruddur
-Recreated a conceptual diagram for Cruddur using Lucid. The purpose of this diagram is communicate the architecture at a high level to its stakeholders. 
+Recreated a conceptual diagram for Cruddur using Lucid. The purpose of this diagram is to communicate the architecture at a high level to its stakeholders. 
 
 <img src= ./images/ConceptDiagram.png>
 
