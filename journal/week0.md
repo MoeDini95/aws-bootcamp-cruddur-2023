@@ -64,7 +64,7 @@ Recreated a conceptual diagram for Cruddur using Lucid. The purpose of this diag
 
 
 # Recreate a logical diagram for Cruddur
-Recreated the logical diagram for cruddur also using Lucid. This diagram is a detailed design of the architecture whcih outlines the tools needed to operate Cruddur.
+Recreated the logical diagram for cruddur also using Lucid. This diagram is a detailed design of the architecture which outlines the tools needed to operate Cruddur.
 <img src= ./images/LogicalDiagram.png>
 
 
