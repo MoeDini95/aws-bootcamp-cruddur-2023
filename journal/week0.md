@@ -1,6 +1,6 @@
 # Week 0 — Billing and Architecture
 
-# Required Homework Tasks
+## Required Homework Tasks
 1. [X] Create an Admin User and Group within the AWS console
 2. [X] Create a Budget and Billing alarm
 3. [X] Create an SNS topic
