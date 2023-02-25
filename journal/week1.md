@@ -63,12 +63,13 @@ Once Variables are set, you can run the server,
 <img src= ./images/JSONData.png>
 Once the page is opened you will be able to see data. This confirms that it is indeed running. 
 
+<br />
 
-# Build Dockerfile 
+# Build Docker image for the backend
 The Docker build command builds a docker image from the dockerfile 
 Make sure to go up a directory.(Use cd to change directory and .. to move back)
 <img src= ./images/DockerBuild.png>
-- t stands for a name or optionally a tag 
+- -t stands for a name or optionally a tag 
 - looks for a docker file in the backend-flask folder 
 
 
