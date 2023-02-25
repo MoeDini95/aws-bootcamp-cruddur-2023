@@ -16,6 +16,12 @@
 
 
 
-# Containerize Application (Backend & Frontend)
+# Containerize Application (Dockerfile, DockerCompose) 
 
+- Docker File
 <img src= ./images/ContainerizeBackend.png>
+
+- This dockerfile contains all the commands needed to assemble the backend image 
+
+
+
