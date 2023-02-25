@@ -7,7 +7,7 @@
 3. [X] Watch week 1 Live Stream
 4. [X] Watch Spending considerations by Chirag
 5. [X] Watch Container Security Considerations by Ashish 
-6. [ ] Containerize Application (Dockerfiles, Docker Compose)
+6. [X] Containerize Application (Dockerfiles, Docker Compose)
 7. [ ] Create a notification feature (Backend & Frontend)
 8. [ ] Write a Flask BackendEndpoint for Notifications 
 9. [ ] Write a React Page for Notifications 
@@ -124,7 +124,7 @@ For terminal convenience, you can add the -d flag to run the container in the ba
  - Need to install the node dependencies before creating a container 
 
 
- ## Creating a docker file 
+## Creating a docker file 
 <img src= ./images/DFFE.png>
 - You will need to create a dockerfile and place it within the ######frontend-react-js folder 
 
@@ -135,16 +135,19 @@ This will be created at the root of your project
 - This will reduce the amount of terminals needed to run both backend and frontend containers 
 
 
-###### Docker-Compose
+## Docker-Compose
 <img src= ./images/DC-up.png>
 - Here is a way to run docker compose up rather than typing the 'docker compose up' command 
 
 
 <br />
 
-###### Ensuring Frontend runs successful
+## Ensuring Frontend runs successful
 <img src= ./images/Frontend.png>
 - Once you open the port, you will be greeted with the Cruddur homepage 
+
+
+## Creating notification feature 
 
 
 
