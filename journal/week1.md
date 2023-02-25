@@ -52,10 +52,13 @@
 
 
 # Adding Environment Variables 
-If you go into '/backend-flask/app.py' you will notice that there are 2 environment variables 
-(BACKEND_URL & FRONTEND+URL) that need to be set up
+If you go into '/backend-flask/app.py' you will notice that there are 2 environment variables (BACKEND_URL & FRONTEND+URL) that need to be set up
 <img src= ./images/EmptyVar.png>
 
 - You can set variables by doing the following:
 <img src= ./images/SetVar.png>
 
+
+Once Variables are set, you can run the server, 
+<img src= ./images/JSONData.png>
+Once the page is opened you will be able to see data in JSON 
