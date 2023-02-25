@@ -24,3 +24,8 @@
 - This dockerfile contains all the commands needed to assemble the backend image 
 
 
+- The command at the bottom allows us to run flask 
+
+
+<img src= ./images/PythonLibInst.png>
+- Install the Python library 
