@@ -61,4 +61,20 @@ If you go into '/backend-flask/app.py' you will notice that there are 2 environm
 
 Once Variables are set, you can run the server, 
 <img src= ./images/JSONData.png>
-Once the page is opened you will be able to see data in JSON 
+Once the page is opened you will be able to see data. This confirms that it is indeed running. 
+
+
+# Build Dockerfile 
+The Docker build command builds a docker image from the dockerfile 
+Make sure to go up a directory.(Use cd to change directory and .. to move back)
+<img src= ./images/DockerBuild.png>
+- t stands for a name or optionally a tag 
+- looks for a docker file in the backend-flask folder 
+
+
+<img src= ./images/DockerImages.png>
+- here you can enter in the 'docker images' command to display the created images. 
+
+
+<img src= ./images/DockerExt.png>
+- You can also confirm if the image exists by installing the docker extension on VSCode.
