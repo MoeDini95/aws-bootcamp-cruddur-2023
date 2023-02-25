@@ -79,3 +79,81 @@ Make sure to go up a directory.(Use cd to change directory and .. to move back)
 
 <img src= ./images/DockerExt.png>
 - You can also confirm if the image exists by installing the docker extension on VSCode.
+
+
+<br />
+
+# Running Image 
+You can run your image with the 'docker run' command
+<img src= ./images/ImageRun.png>
+- You will notice the port open up once you do 
+- You will be greeted with a 404 error which means that there are no environment variables set
+- We will need to confirm if there are any environment variables set in our container 
+- to do this we can go in to the container shell and check the current env vars set 
+
+# Checking environment variables in container shell 
+<img src=./images/AttachShell.png>
+- You can go into the docker extension and right click on the running container and select attach shell to SSH into the shell
+
+<br />
+
+<img src= ./images/ContainerShell.png>
+- From here we can run the 'env' command to view the current set variables. We can confirm there are no environment variables set
+- We will need to set the environment variables locally in order to pass the command from our machine 
+
+
+<img src= ./images/ResetEnv.png>
+- You can set the env vars with the export command 
+- And you can confirm if the variables are set with 'env | grep' command 
+
+
+## Run container 
+Once the variables are set, you can run the container 
+<img src= ./images/RunContainer.png>
+
+
+## Run Container in Background 
+For terminal convenience, you can add the -d flag to run the container in the background.
+<img src= ./images/RCB.png>
+
+
+
+
+## Containerize Frontend 
+<img src= ./images/NpmInst.png>
+ - Need to install the node dependencies before creating a container 
+
+
+ ## Creating a docker file 
+<img src= ./images/DFFE.png>
+- You will need to create a dockerfile and place it within the ######frontend-react-js folder 
+
+## Creating a docker-compose file 
+This will be created at the root of your project 
+<img src= ./images/DockerCompose.png>
+- This docker-compose file will allow us to run multiple containers at the same time 
+- This will reduce the amount of terminals needed to run both backend and frontend containers 
+
+
+###### Docker-Compose
+<img src= ./images/DC-up.png>
+- Here is a way to run docker compose up rather than typing the 'docker compose up' command 
+
+
+<br />
+
+###### Ensuring Frontend runs successful
+<img src= ./images/Frontend.png>
+- Once you open the port, you will be greeted with the Cruddur homepage 
+
+
+
+
+
+
+
+
+
+
+
+
