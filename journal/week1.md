@@ -8,9 +8,9 @@
 4. [X] Watch Spending considerations by Chirag
 5. [X] Watch Container Security Considerations by Ashish 
 6. [X] Containerize Application (Dockerfiles, Docker Compose)
-7. [ ] Create a notification feature (Backend & Frontend)
-8. [ ] Write a Flask BackendEndpoint for Notifications 
-9. [ ] Write a React Page for Notifications 
+7. [X] Create a notification feature (Backend & Frontend)
+8. [X] Write a Flask BackendEndpoint for Notifications 
+9. [X] Write a React Page for Notifications 
 10. [ ] Run a DynamoDB local container and make sure it works
 11. [ ] Run Postgres container and make sure it works
 
@@ -154,11 +154,11 @@ This will be created at the root of your project
 - Updating the Api to add notifications 
 
 
-
+# Write a Flask Backend Endpoint for Notifications 
 <img src= ./images/BackendApi.png>
 - Creating new notifications for backend endpoint
 
-
+# Write a React Page for Notifications
 <img src= ./images/FrontendNotification.png>
 - Implementing the notification page on vscode 
 
