@@ -163,7 +163,7 @@ This will be created at the root of your project
 - Implementing the notification page on vscode 
 
 
-<img src= ./images/NotificationPage.png>
+<img src= ./images/Notificationpage.png>
 - Once the code is saved, you will be able to head into the notifications page
 
 
