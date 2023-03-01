@@ -149,7 +149,9 @@ This will be created at the root of your project
 
 ## Creating notification feature 
 
+<img src= ./images/ApiNoti.png>
 
+- Updating the Api to add notifications 
 
 
 
