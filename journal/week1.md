@@ -159,7 +159,12 @@ This will be created at the root of your project
 - Creating new notifications for backend endpoint
 
 
+<img src= ./images/FrontendNotification.png>
+- Implementing the notification page on vscode 
 
+
+<img src= ./images/NotificationPage.png>
+- Once the code is saved, you will be able to head into the notifications page
 
 
 
