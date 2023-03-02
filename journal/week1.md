@@ -185,7 +185,7 @@ This will be created at the root of your project
 
 
 ## Adding Postgres client onto Gitpod 
-<img src= ./images/PostgresGitpod.png>
+<img src= ./images/PosgresGitpod.png>
 
 
 
