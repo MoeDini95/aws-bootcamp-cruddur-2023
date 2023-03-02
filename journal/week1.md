@@ -167,6 +167,23 @@ This will be created at the root of your project
 - Once the code is saved, you will be able to head into the notifications page
 
 
+# Run a DynamoDB local container and make sure it works
+
+## DynamoDB Local Container
+<img src= ./images/DynamoLocalCon.png>
+
+
+
+
+# Run Postgres container and make sure it works
+
+
+## Postgres local container
+<img src= ./images/PostgresLocalCon.png>
+
+
+
+
 
 
 
