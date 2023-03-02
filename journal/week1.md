@@ -1,3 +1,4 @@
+cls
 # Week 1 — App Containerization
 
 # Todo Checklist 
@@ -181,6 +182,10 @@ This will be created at the root of your project
 ## Postgres local container
 <img src= ./images/PostgresLocalCon.png>
 
+
+
+## Adding Postgres client onto Gitpod 
+<img src= ./images/PostgresGitpod.png>
 
 
 
