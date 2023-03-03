@@ -12,8 +12,8 @@ cls
 7. [X] Create a notification feature (Backend & Frontend)
 8. [X] Write a Flask BackendEndpoint for Notifications 
 9. [X] Write a React Page for Notifications 
-10. [ ] Run a DynamoDB local container and make sure it works
-11. [ ] Run Postgres container and make sure it works
+10. [X] Run a DynamoDB local container and make sure it works
+11. [X] Run Postgres container and make sure it works
 
 
 
@@ -189,6 +189,20 @@ This will be created at the root of your project
 
 
 
+## Adding Database Explorer 
+<img src= ./images/DatabaseExplorer.png>
+Creating a database connection with database explorer
+
+<img src= ./images/Databases.png>
+Once you get a successful connection, you will be able to see the tables
+
+
+## Connect to the database via the terminal 
+<img src= ./images/PGT.png>
+To connect to the database via the terminal:
+- type in 'psql -h localhost -U postgres' into the terminal 
+- enter 'password' as the password which is stated in the gitpod.yml file 
+- you can load the list of databases with '\l' 
 
 
 
