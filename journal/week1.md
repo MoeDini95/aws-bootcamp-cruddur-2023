@@ -1,4 +1,3 @@
-cls
 # Week 1 — App Containerization
 
 # Todo Checklist 
