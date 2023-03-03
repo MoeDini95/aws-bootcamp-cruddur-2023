@@ -200,6 +200,7 @@ Once you get a successful connection, you will be able to see the tables
 ## Connect to the database via the terminal 
 <img src= ./images/PGT.png>
 To connect to the database via the terminal:
+
 - type in 'psql -h localhost -U postgres' into the terminal 
 - enter 'password' as the password which is stated in the gitpod.yml file 
 - you can load the list of databases with '\l' 
