@@ -2,7 +2,7 @@
 
 # Todo Checklist 
 
-1. [ ] Watch Week 2 Live Stream 
+1. [X] Watch Week 2 Live Stream 
 2. [ ] Watch Ashish's Week 2 - Observability Considerations 
 3. [ ] Instrument Honeycomb with OTEL
 4. [ ] Instrument AWS X-Ray
