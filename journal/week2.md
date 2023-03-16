@@ -4,7 +4,24 @@
 
 1. [X] Watch Week 2 Live Stream 
 2. [ ] Watch Ashish's Week 2 - Observability Considerations 
-3. [ ] Instrument Honeycomb with OTEL
+3. [ ] Instrument Honeycomb with Open Telemetry (OTEL)
 4. [ ] Instrument AWS X-Ray
 5. [ ] Configure custom logger to send to CloudWatch Logs
 6. [ ] Integrate Rollbar and capture error 
+
+
+
+# Managing Honeycomb on Gitpod 
+<img src= ./images/OTELDC.png>
+Adding these environment variables into the docker compose file allows us to configure Open telemetry to communicate to honeycomb.io
+
+
+
+
+
+
+
+
+# Instrument Honeycomb with Open Telemetry (OTEL)
+
+
