@@ -20,9 +20,7 @@ Adding these environment variables into the docker compose file allows us to con
 
 <img src= ./images/PyComb.png>
 Installing these packages will allow us to instrument our backend flask. Documentation on instrumenting your flask app can be found on the Honeycomb.io documentation section [https://docs.honeycomb.io/getting-data-in/opentelemetry/python/]
-## You will need to be in the 'backend-flask' directory in order to install the packages
-
--- 
+-  You will need to be in the 'backend-flask' directory in order to install the packages
 
 
 <img src= ./images/BackEndHC.png>
