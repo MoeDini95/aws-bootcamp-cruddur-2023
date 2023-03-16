@@ -25,7 +25,7 @@ Installing these packages will allow us to instrument our backend flask. Documen
 -- 
 
 
-<img src= ./images/BackEnd.png>
+<img src= ./images/BackEndHC.png>
 Add the code from the honeycomb.io documentation into the 'app.py' file which will create a tracer as well as a flask instrumentation so that Honeycomb can receive any data requests. 
 
 
