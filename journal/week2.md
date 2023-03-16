@@ -11,14 +11,22 @@
 
 
 
-# Managing Honeycomb on Gitpod 
+## Managing Honeycomb on Gitpod 
 <img src= ./images/OTELDC.png>
 Adding these environment variables into the docker compose file allows us to configure Open telemetry to communicate to honeycomb.io
 
-# Installing Python dependencies for Instrumentation 
+
+## Installing Python dependencies for Instrumentation 
 
 <img src= ./images/PyComb.png>
-Installing these packages will allow us to instrument our backend flask. Documentation on instrumenting your flask app can be found [here] [https://docs.honeycomb.io/getting-data-in/opentelemetry/python]
+Installing these packages will allow us to instrument our backend flask. Documentation on instrumenting your flask app can be found on the Honeycomb.io documentation section [https://docs.honeycomb.io/getting-data-in/opentelemetry/python/]
+## You will need to be in the 'backend-flask' directory in order to install the packages
+
+-- 
+
+
+<img src= ./images/BackEnd.png>
+Add the code from the honeycomb.io documentation into the 'app.py' file which will create a tracer as well as a flask instrumentation so that Honeycomb can receive any data requests. 
 
 
 
@@ -26,6 +34,6 @@ Installing these packages will allow us to instrument our backend flask. Documen
 
 
 
-# Instrument Honeycomb with Open Telemetry (OTEL)
+
 
 
