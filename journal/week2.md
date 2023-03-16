@@ -18,7 +18,7 @@ Adding these environment variables into the docker compose file allows us to con
 # Installing Python dependencies for Instrumentation 
 
 <img src= ./images/PyComb.png>
-Installing these packages will allow us to instrument our backend flask. Documentation on instrumenting your flask app can be found here goto: https://docs.honeycomb.io/getting-data-in/opentelemetry/python/
+Installing these packages will allow us to instrument our backend flask. Documentation on instrumenting your flask app can be found here goto: [https://docs.honeycomb.io/getting-data-in/opentelemetry/python/]
 
 
 
