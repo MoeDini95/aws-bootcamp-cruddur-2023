@@ -79,6 +79,36 @@ You will need to create a json file which wil set up sampling rules in X-Ray
 <br />
 
 ## Creating an X-Ray Group 
+Enter in the following command to create an X-Ray Group in AWS 
+<img src= ./images/XRayGroup.png>
+
+<br />
+
+You will be able to see within the AWS console under the X-Ray service that the group has been created. 
+<img src= ./images/X-RayGroup.png>
+
+
+Creating a Sampling Rule 
+ Run the following command in order to create a sampling rule in AWS X-Ray.
+
+ <img src= ./images/SampleRule.png>
+
+ <br />
+
+ You can confirm that the Sampling rule has been created in the AWS console 
+ <img src= ./images/CloudwatchSR.png>
+
+<br />
+
+
+<br />
+
+
+## Add Daemon Service to Docker Compose 
+<img src= ./images/X-RayDae.png>
+
+
+
 
 
 
