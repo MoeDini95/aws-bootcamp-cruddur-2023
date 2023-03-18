@@ -3,11 +3,13 @@
 # Todo Checklist 
 
 1. [X] Watch Week 2 Live Stream 
-2. [ ] Watch Ashish's Week 2 - Observability Considerations 
-3. [ ] Instrument Honeycomb with Open Telemetry (OTEL)
-4. [ ] Instrument AWS X-Ray
-5. [ ] Configure custom logger to send to CloudWatch Logs
-6. [ ] Integrate Rollbar and capture error 
+2. [X] Watch Chirag Week 2 - Spending Considerations 
+3. [X] Watch Ashish's Week 2 - Observability Considerations 
+4. [X] Instrument Honeycomb with Open Telemetry (OTEL)
+5. [ ] Instrument AWS X-Ray
+6. [ ] Instrument AWS X-Ray Subsegments
+7. [ ] Configure custom logger to send to CloudWatch Logs
+8. [ ] Integrate Rollbar and capture error 
 
 
 
@@ -49,6 +51,7 @@ You will be able to see Spans appear on your Honeycomb dashboard
 
 
 <br />
+
 ## Adding a Span into <home_activities.py> so we can visualize our data. 
  - To create a span, you will need to acquire a trace. 
  - Steps to create a span and acquire a trace can also be found in the honeycomb.io documentation pages 
@@ -58,9 +61,12 @@ You will be able to see Spans appear on your Honeycomb dashboard
 <br />
 
 ## Running a Query
-You will now be able to see all of your traces via the honeycomb dashboard and when you run a query it looks over all spans in honeycomb. 
+You will now be able to see all of your traces and attributes that were set via the honeycomb dashboard when you run a query.
 
-<img src= ./images/>
+<img src= ./images/Attributes.png>
+
+
+# Instrument AWS X-Ray
 
 
 
