@@ -74,7 +74,7 @@ You will need to install the AWS X-Ray SDK for Python. You can add the following
 <br />
 
 You will need to create a json file which wil set up sampling rules in X-Ray 
-<img src= ./imagesXRayRes.png>
+<img src= ./images/XRayRes.png>
 
 <br />
 
