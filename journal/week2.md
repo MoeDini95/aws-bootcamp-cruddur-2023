@@ -108,6 +108,18 @@ Creating a Sampling Rule
 <img src= ./images/X-RayDae.png>
 
 
+<br />
+
+Once you run Docker compose up and visit your backend, you will be able to see data populate on Cloudwatch traces. 
+
+<img src= ./images/CWTrace.png>
+
+<br />
+
+
+
+
+
 
 
 
