@@ -15,6 +15,11 @@
 <img src= ./images/OTELDC.png>
 Adding these environment variables into the docker compose file allows us to configure Open telemetry to communicate to honeycomb.io
 
+Create an environment in Honeycomb 
+<img src= ./images/HoneyEnv.png>
+This will allow us to see our datasets 
+
+
 
 ## Installing Python dependencies for Instrumentation 
 
@@ -22,6 +27,7 @@ Adding these environment variables into the docker compose file allows us to con
 Installing these packages will allow us to instrument our backend flask. Documentation on instrumenting your flask app can be found on the Honeycomb.io documentation section [https://docs.honeycomb.io/getting-data-in/opentelemetry/python/]
 -  You will need to be in the 'backend-flask' directory in order to install the packages
 
+```
 
 <img src= ./images/BackEndHC.png>
 Add the code from the honeycomb.io documentation into the 'app.py' file which will create a tracer as well as a flask instrumentation so that Honeycomb can receive any data requests. 
