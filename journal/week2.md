@@ -33,14 +33,14 @@ Installing these packages will allow us to instrument our backend flask. Documen
 <br />
 
 <img src= ./images/BackEndHC.png>
-Add the code from the honeycomb.io documentation into the 'app.py' file which will create a tracer as well as a flask instrumentation so that Honeycomb can receive any data requests. 
+Add the code from the honeycomb.io documentation into the `app.py` file which will create a tracer as well as a flask instrumentation so that Honeycomb can receive any data requests. 
 
 
 
 
 <br />
 
-Quick tip, you can add this to your <gitpod.yml> file to open ports automatically when you run docker compose up. 
+Quick tip, you can add this to your `gitpod.yml` file to open ports automatically when you run docker compose up. 
 <img src= ./images/OpenPort.png>
 
 <br />
@@ -52,7 +52,7 @@ You will be able to see Spans appear on your Honeycomb dashboard
 
 <br />
 
-## Adding a Span into <home_activities.py> so we can visualize our data. 
+## Adding a Span into `home_activities.py` so we can visualize our data. 
  - To create a span, you will need to acquire a trace. 
  - Steps to create a span and acquire a trace can also be found in the honeycomb.io documentation pages 
 
@@ -68,7 +68,17 @@ You will now be able to see all of your traces and attributes that were set via 
 
 # Instrument AWS X-Ray
 
+You will need to install the AWS X-Ray SDK for Python. You can add the following command into your requirements.txt file under the `backend` directory. 
+<img src= ./images/XraySDK.png>
 
+<br />
+
+You will need to create a json file which wil set up sampling rules in X-Ray 
+<img src= ./imagesXRayRes.png>
+
+<br />
+
+## Creating an X-Ray Group 
 
 
 
