@@ -170,6 +170,16 @@ Add this endpoint to test out rollbar into  `app.py`
 
 <img src= ./images/RollTest.png>
 
+<br />
+
+Once you Docker compose up, you should be able to see data populate on Rollbar
+
+<img src= ./images/RBDash.png>
+
+## Capture an error in rollbar 
+Removed the 'return' function in `home_activities.py` to test out rollbar in action which reported an error.
+
+<img src= ./images/RBError.png>
 
 
 
