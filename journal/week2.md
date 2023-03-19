@@ -9,7 +9,7 @@
 5. [X] Instrument AWS X-Ray
 6. [X] Instrument AWS X-Ray Subsegments
 7. [X] Configure custom logger to send to CloudWatch Logs
-8. [ ] Integrate Rollbar and capture error 
+8. [X] Integrate Rollbar and capture error 
 
 
 
