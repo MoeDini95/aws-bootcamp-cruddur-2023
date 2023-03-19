@@ -164,6 +164,12 @@ Add this code in to configure Rollbar to communicate to our environment.
 
 <img src= ./images/Rollbarinit.png>
 
+<br />
+
+Add this endpoint to test out rollbar into  `app.py` 
+
+<img src= ./images/RollTest.png>
+
 
 
 
