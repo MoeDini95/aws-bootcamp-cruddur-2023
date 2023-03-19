@@ -4,7 +4,8 @@ class UserActivities:
   def run(user_handle):
     try:
       # X-Ray ---
-      segment = xray_recorder.begin_segment('user_activities')
+      #segment = xray_recorder.begin_segment('user_activities')
+      
       model = {
       'errors': None,
       'data': None
@@ -29,13 +30,13 @@ class UserActivities:
       subsegment = xray_recorder.begin_subsegment('mock-data')
 
     # X-Ray ---
-      dict = {
-      "now": now .isoformat(),
-      "results-size": len(model['data'])
-    }
+      #dict = {
+      #"now": now .isoformat(),
+      #"results-size": len(model['data'])
+    #}
   
-      subsegment.put_metadata('key', dict, 'namespace')
-      xray_recorder.end_subsegment()
+      # subsegment.put_metadata('key', dict, 'namespace')
+      #xray_recorder.end_subsegment()
 
     finally:
       # Close Segment

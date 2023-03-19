@@ -130,6 +130,22 @@ Once you run Docker compose up and visit your backend, you will be able to see d
 
 ## Configure custom logger to send to CloudWatch Logs
 
+First you will have to install 'watchtower' in your 'requirements.txt' file within the `backend-flask` directory. 
+<img src= ./images/Watchtower.png>
+
+<br />
+
+Add the following codes into `app.py` and `home_activities.py` to configure Logger to use CloudWatch 
+
+<img src= ./images/LogInfo.png>
+
+<br />
+
+You will be able to see log events populate on the Cloudwatch Log Events dashboard once the logger information has been configured!
+<img src= ./images/CWL.png>
+
+<br />
+
 
 
 
