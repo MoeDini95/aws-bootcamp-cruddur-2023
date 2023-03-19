@@ -6,7 +6,7 @@
 2. [X] Watch Chirag Week 2 - Spending Considerations 
 3. [X] Watch Ashish's Week 2 - Observability Considerations 
 4. [X] Instrument Honeycomb with Open Telemetry (OTEL)
-5. [ ] Instrument AWS X-Ray
+5. [X] Instrument AWS X-Ray
 6. [ ] Instrument AWS X-Ray Subsegments
 7. [ ] Configure custom logger to send to CloudWatch Logs
 8. [ ] Integrate Rollbar and capture error 
