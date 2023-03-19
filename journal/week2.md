@@ -8,7 +8,7 @@
 4. [X] Instrument Honeycomb with Open Telemetry (OTEL)
 5. [X] Instrument AWS X-Ray
 6. [X] Instrument AWS X-Ray Subsegments
-7. [ ] Configure custom logger to send to CloudWatch Logs
+7. [X] Configure custom logger to send to CloudWatch Logs
 8. [ ] Integrate Rollbar and capture error 
 
 
@@ -145,6 +145,24 @@ You will be able to see log events populate on the Cloudwatch Log Events dashboa
 <img src= ./images/CWL.png>
 
 <br />
+
+## Integrate Rollbar and capture error 
+
+First you need to install Blinker and Rollbar in your 'requirements.txt' file. 
+
+<img src= ./images/RollbarInstall.png >
+
+<br />
+
+You will also need to set your access token as an environment variable
+
+<img src= ./images/RollEnv.png>
+
+<br />
+
+Add this code in to configure Rollbar to communicate to our environment.
+
+<img src= ./images/Rollbarinit.png>
 
 
 
