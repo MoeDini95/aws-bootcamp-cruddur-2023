@@ -7,7 +7,7 @@
 3. [X] Watch Ashish's Week 2 - Observability Considerations 
 4. [X] Instrument Honeycomb with Open Telemetry (OTEL)
 5. [X] Instrument AWS X-Ray
-6. [ ] Instrument AWS X-Ray Subsegments
+6. [X] Instrument AWS X-Ray Subsegments
 7. [ ] Configure custom logger to send to CloudWatch Logs
 8. [ ] Integrate Rollbar and capture error 
 
@@ -115,6 +115,23 @@ Once you run Docker compose up and visit your backend, you will be able to see d
 <img src= ./images/CWTrace.png>
 
 <br />
+
+## Instrument AWS X-Ray Subsegments
+
+<img src= ./images/SubSeg.png>
+
+- Resolved the issue on subsegments not showing up on Cloudwatch
+
+<br />
+
+<img src= ./images/MockData.png>
+
+<br />
+
+## Configure custom logger to send to CloudWatch Logs
+
+
+
 
 
 
