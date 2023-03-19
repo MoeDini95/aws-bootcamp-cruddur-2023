@@ -162,7 +162,7 @@ You will also need to set your access token as an environment variable
 
 Add this code in to configure Rollbar to communicate to our environment.
 
-<img src= ./images/Rollbarinit.png>
+<img src= ./images/RollbarInit.png>
 
 <br />
 
