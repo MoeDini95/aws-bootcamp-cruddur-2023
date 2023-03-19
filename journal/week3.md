@@ -12,4 +12,18 @@
 8. [ ] Watch about different approachers to verifying JWTs
 
 
+## Set Cognito User Pool 
+
+First, we need to create the user pool manually in the AWS console management within the Cognito service.
+
+<img src= ./images/UserPool.png>
+
+
+<br />
+
+
+You will also need to install AWS Amplify within the `frontend-react-js` directory. 
+<img src= ./images/AmpInst.png>
+
+
 
