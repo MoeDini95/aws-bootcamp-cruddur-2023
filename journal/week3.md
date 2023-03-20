@@ -26,4 +26,23 @@ You will also need to install AWS Amplify within the `frontend-react-js` directo
 <img src= ./images/AmpInst.png>
 
 
+<br />
+
+Once Amplify is installed, you will need to import its code into the `App.js` file.
+
+<img src= ./images/ImportAmp.png>
+
+
+<br />
+
+
+You will need to set these environment variables in your docker compose file.
+<img src= ./images/AmpDC.png>
+
+
+<br />
+
+
+
+
 
