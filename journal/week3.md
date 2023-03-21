@@ -42,7 +42,8 @@ You will need to set these environment variables in your docker compose file.
 
 <br />
 
-
+In order to check authentication, you will need to replace the current authentication code and replace it with the updated version.
+<img src= ./images/CheckAuth.png>
 
 
 
