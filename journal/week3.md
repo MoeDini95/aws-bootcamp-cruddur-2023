@@ -54,6 +54,6 @@ You will need to import the following code to set up the sign in page.
 
 
 
-
+## Set up Sign up Page 
 
 
