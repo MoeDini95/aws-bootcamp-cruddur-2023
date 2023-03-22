@@ -3,8 +3,8 @@
 # Todo Checklist
 
 1. [ ] Watched Ashish's Week 3 - Decenteralized Authentication
-2. [ ] Set Cognito User Pool
-3. [ ] Implement Custom Sign-in Page
+2. [X] Set Cognito User Pool
+3. [X] Implement Custom Sign-in Page
 4. [ ] Implement Custom Sign-up Page
 5. [ ] Implement Custom Confirmation Page 
 6. [ ] Implement Custom Recovery Page 
@@ -44,6 +44,16 @@ You will need to set these environment variables in your docker compose file.
 
 In order to check authentication, you will need to replace the current authentication code and replace it with the updated version.
 <img src= ./images/CheckAuth.png>
+
+<br />
+
+## Set up Sign in Page 
+
+You will need to import the following code to set up the sign in page.
+<img src= ./images/SignIn.png>
+
+
+
 
 
 
