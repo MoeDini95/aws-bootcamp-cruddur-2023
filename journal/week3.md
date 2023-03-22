@@ -53,7 +53,17 @@ You will need to import the following code to set up the sign in page.
 <img src= ./images/SignIn.png>
 
 
+<br />
+
 
 ## Set up Sign up Page 
+Input the following code to set up the Sign up page which includes the confirmation section.
+
+<img src= ./images/SignUp.png>
 
 
+<br />
+
+## Implement Password Recovery page 
+
+<img src= ./images/Recovery.png>
