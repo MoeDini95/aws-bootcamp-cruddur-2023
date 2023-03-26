@@ -7,7 +7,7 @@
 3. [X] Implement Custom Sign-in Page
 4. [X] Implement Custom Sign-up Page
 5. [X] Implement Custom Confirmation Page 
-6. [ ] Implement Custom Recovery Page 
+6. [X] Implement Custom Recovery Page 
 7. [ ] Verify JWT token server side
 8. [ ] Watch about different approachers to verifying JWTs
 
@@ -83,7 +83,7 @@ You can see that my username is present on the mid-left of the page which indica
 
 
 ## Set up Sign up Page 
-Input the following code to set up the Sign up page which includes the confirmation section.
+Input the following code into the `SignupPage.js` file to set up the Sign up page.
 
 <img src= ./images/SUP.png>
 
@@ -111,7 +111,20 @@ Once you enter in your information, you will need to head to the email which you
 
 
 ## Implement Password Recovery page 
-
+Input the following code into `RecoverPage.js` in order to set up the Forger Password process.  
 <img src= ./images/Recovery.png>
+
+<br />
+
+Once that is configured, you can click the 'Forgot Password?' option and then enter your email. This will send a code to your email and will ask you to enter in the access code as well as the new password you would like to set. 
+
+<img src= ./images/REC.png>
+
+<br />
+
+Once you enter in the information required, you will see a successful password reset message and can continue to sign into your account with the updated password. 
+<img src= ./images/PassRes.png>
+
+
 
 
