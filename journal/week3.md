@@ -49,7 +49,7 @@ In order to check authentication, you will need to replace the current authentic
 
 ## Set up Sign in Page 
 
-You will need to import the following code to set up the sign in page.
+You will need to import the following code into the `SigninPage.js` file to set up the sign in page.
 <img src= ./images/SignIn.png>
 
 
@@ -67,6 +67,12 @@ If you have created a user in Cognito, you should be able to log in with your se
 
 <br />
 
+If you are not able to log in, you can create the user account manually through the CLI with the following command.
+<img src = ./images/UserCLI.png>
+
+<br />
+
+
 <img src= ./images/HomePage.png>
 You can see that my username is present on the mid-left of the page which indicates that I am logged in. 
 
@@ -79,11 +85,18 @@ You can see that my username is present on the mid-left of the page which indica
 ## Set up Sign up Page 
 Input the following code to set up the Sign up page which includes the confirmation section.
 
-<img src= ./images/SignUp.png>
+<img src= ./images/SUP.png>
 
 
 
 ## Set up custom Confirmation Page
+Input the following code into the `ConfirmationPage.js` file which will configure and set up the confirmation page.
+<img src= ./images/SignUp.png>
+
+
+
+
+
 Once that is saved, you can log out of your current session on Cruddur and click on the 'Join Now' option and will be welcomed by this page here.
 
 <img src= ./images/SignUpHome.png>
@@ -100,3 +113,5 @@ Once you enter in your information, you will need to head to the email which you
 ## Implement Password Recovery page 
 
 <img src= ./images/Recovery.png>
+
+
