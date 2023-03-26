@@ -125,6 +125,20 @@ Once that is configured, you can click the 'Forgot Password?' option and then en
 Once you enter in the information required, you will see a successful password reset message and can continue to sign into your account with the updated password. 
 <img src= ./images/PassRes.png>
 
+<br />
+
+
+## Verify JWT token server side
+
+Replace the following code related to CORS within the `app.py' file which is located under the backend-flask directory.
+<img src= ./images/BacCor.png>
+
+<br />
+
+Add the following headers into `HomeFeedPage.js`
+<img src= ./images/HFHead.png>
+
+
 
 
 
