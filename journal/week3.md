@@ -2,11 +2,11 @@
 
 # Todo Checklist
 
-1. [ ] Watched Ashish's Week 3 - Decenteralized Authentication
+1. [X] Watched Ashish's Week 3 - Decenteralized Authentication
 2. [X] Set Cognito User Pool
 3. [X] Implement Custom Sign-in Page
-4. [ ] Implement Custom Sign-up Page
-5. [ ] Implement Custom Confirmation Page 
+4. [X] Implement Custom Sign-up Page
+5. [X] Implement Custom Confirmation Page 
 6. [ ] Implement Custom Recovery Page 
 7. [ ] Verify JWT token server side
 8. [ ] Watch about different approachers to verifying JWTs
@@ -56,13 +56,46 @@ You will need to import the following code to set up the sign in page.
 <br />
 
 
+Once that is configured, you can click the Sign in button on the home feed in Cruddur and it should direct you to this page. 
+
+<img src= ./images/MainSignIn.png>
+
+<br />
+
+If you have created a user in Cognito, you should be able to log in with your set credentials and should be welcomed to the home feed with your username shown in the image below. 
+
+
+<br />
+
+<img src= ./images/HomePage.png>
+You can see that my username is present on the mid-left of the page which indicates that I am logged in. 
+
+
+<br />
+
+
+
+
 ## Set up Sign up Page 
 Input the following code to set up the Sign up page which includes the confirmation section.
 
 <img src= ./images/SignUp.png>
 
 
+
+## Set up custom Confirmation Page
+Once that is saved, you can log out of your current session on Cruddur and click on the 'Join Now' option and will be welcomed by this page here.
+
+<img src= ./images/SignUpHome.png>
+
 <br />
+
+Once you enter in your information, you will need to head to the email which you have used and retrieve the confirmation code from that email in order to be verified and to access Cruddur.
+
+<img src= ./images/Confirmation.png>
+
+<br />
+
 
 ## Implement Password Recovery page 
 
