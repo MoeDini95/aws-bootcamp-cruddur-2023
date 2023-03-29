@@ -159,6 +159,16 @@ You can create a secret that returns successfully when you are authenticated.
 
 <img src= ./images/Secret.png>
 
+When you are logged in, it should present the secret you published to confirm that you are authenticated. Below is an example on Cruddur. 
+
+<img src= ./images/Auth.png>
+
+<br />
+
+However, if you are not logged in it will not show your secret which means you are not authenticated. 
+
+<img src= ./images/NoAuth.png>
+
 
 
 
