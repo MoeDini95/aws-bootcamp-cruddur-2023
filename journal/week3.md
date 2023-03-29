@@ -8,8 +8,8 @@
 4. [X] Implement Custom Sign-up Page
 5. [X] Implement Custom Confirmation Page 
 6. [X] Implement Custom Recovery Page 
-7. [ ] Verify JWT token server side
-8. [ ] Watch about different approachers to verifying JWTs
+7. [X] Verify JWT token server side
+8. [X] Watch about different approachers to verifying JWTs
 
 
 ## Set Cognito User Pool 
@@ -137,6 +137,27 @@ Replace the following code related to CORS within the `app.py' file which is loc
 
 Add the following headers into `HomeFeedPage.js`
 <img src= ./images/HFHead.png>
+
+<br />
+
+Copy the code from the Flask-AWSCognito repository from Github in order to configure the token service.
+
+<img src= ./images/JWTLIB.png>
+
+
+
+<br />
+
+Add the following code within the `app.py` file, right under 'api/activities/home' in order to create and log authenticated/unauthenticated requests 
+
+<img src= ./images/Authenticate.png>
+
+<br />
+
+
+You can create a secret that returns successfully when you are authenticated.
+
+<img src= ./images/Secret.png>
 
 
 
