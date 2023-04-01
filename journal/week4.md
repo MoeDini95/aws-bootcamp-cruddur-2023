@@ -2,7 +2,7 @@
 
 # Todo Checklist 
 
-1. [ ] Create RDS Postgres Instance
+1. [X] Create RDS Postgres Instance
 2. [ ] Create Schema for Postgres 
 3. [ ] Watch Ashish's Week 4 - Security Considerations 
 4. [ ] Bash Scripting for common database actions 
