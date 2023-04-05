@@ -24,3 +24,9 @@ To create a postgres instance via the CLI, you will need to make sure your are c
 Once that is entered in, you can head to the AWS console and under RDS you will see your instance created. From there, it will take about 15 minutes to be available.
 
 <img src= ./images/AWSRDS.png>
+
+<br />
+
+To create a database, you will first need to connect to psql via the psql client cli tool. Once you are connected, you can run 'create database cruddur;" to create it. 
+
+<img src= ./images/CreateDB.png>
