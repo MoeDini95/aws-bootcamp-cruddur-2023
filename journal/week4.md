@@ -50,3 +50,9 @@ Once those are created, you will need to change the modes on those bash scripts 
 Once that is complete, enter in the following within the `db-drop` file so that when you run it via the CLI, you will be able to drop the database. 
 
 <img src= ./images/DBDrop.png>
+
+<br />
+
+You will also need to enter in the following into your `db-create` bash file in order to create the database. Below is an example as follows.
+
+<img src= ./images/CreateDB1.png>
