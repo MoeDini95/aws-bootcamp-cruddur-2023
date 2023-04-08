@@ -60,7 +60,7 @@ You will also need to enter in the following into your `db-create` bash file in 
 
 This specific script is used to load the schema. 
 
-<img src= ./images/ShemaBash.png>
+<img src= ./images/SchemaBash.png>
 
 Below the Bash shell interpreter, you'll notice that we created a print for the shell scripts to show up as a cyan colour to indicate what we are doing.
 
