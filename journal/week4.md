@@ -88,3 +88,11 @@ And one to import seed data.
 
 ## Bash Scripting for common database actions 
 
+Create a file for your DB sessions whcih will check for processes that are running. 
+
+<img src= ./images/DBSesh.png>
+
+<br />
+
+
+
