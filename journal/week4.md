@@ -5,8 +5,8 @@
 1. [X] Create RDS Postgres Instance
 2. [X] Create Schema for Postgres 
 3. [X] Watch Ashish's Week 4 - Security Considerations 
-4. [ ] Bash Scripting for common database actions 
-5. [ ] Install Postgres driver in backend application 
+4. [X] Bash Scripting for common database actions 
+5. [X] Install Postgres driver in backend application 
 6. [ ] Connect Gitpod to RDS Instance
 7. [ ] Create AWS Cognito trigger to insert user into database 
 8. [ ] Create new activities with a database insert 
@@ -132,6 +132,10 @@ In order to create a pool connection, you will need to create a file within the 
 We will also need to make sure we pass the connection url through to the `docker compose` file. 
 
 <img src= ./images/ConURL.png>
+
+<br />
+
+
 
 
 
