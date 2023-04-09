@@ -105,6 +105,35 @@ Below is a script to execute that.
 
 <img src= ./images/Setup.png>
 
+<br />
+
+Once you execute the the bash script, it should run exactly like this;
+
+<img src= ./images/SetU.png>
+
+
+## Installing driver for Postgres
+
+
+To install the the Postgres client driver, you will need to import the following lines into the `requirements.txt` file.
+
+<img src= ./images/PSQLDriver.png>
+
+
+<br />
+
+In order to create a pool connection, you will need to create a file within the `lib` folder and add the following code.
+
+<img src= ./images/ConPool.png>
+
+
+<br />
+
+We will also need to make sure we pass the connection url through to the `docker compose` file. 
+
+<img src= ./images/ConURL.png>
+
+
 
 
 
