@@ -88,11 +88,27 @@ And one to import seed data.
 
 ## Bash Scripting for common database actions 
 
-Create a file for your DB sessions whcih will check for processes that are running. 
+Create a file for your DB sessions which will check for processes that are running. 
 
 <img src= ./images/DBSesh.png>
 
 <br />
+
+Below is an example of what would be shown if 'db-sessions' is executed in the terminal. 
+
+<img src= ./images/SeshProof.png>
+
+<br />
+
+To speed up your workflow, you can create a bash script to run all of those bash scripts to be more efficient. 
+Below is a script to execute that. 
+
+<img src= ./images/Setup.png>
+
+
+
+
+
 
 
 
