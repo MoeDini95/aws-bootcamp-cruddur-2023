@@ -122,7 +122,7 @@ To install the the Postgres client driver, you will need to import the following
 
 <br />
 
-In order to create a pool connection, you will need to create a file within the `lib` folder and add the following code.
+In order to create a pool connection, you will need to create a file within the `lib` folder and add the following code. This will also help us create a query.
 
 <img src= ./images/ConPool.png>
 
@@ -134,6 +134,23 @@ We will also need to make sure we pass the connection url through to the `docker
 <img src= ./images/ConURL.png>
 
 <br />
+
+Once that is done, we will ad this to the home activities page to create an api call. 
+
+<img src= ./images/APICall.png>
+
+<br />
+
+The end reuslt should return the following.
+
+<img src= ./images/APIResult.png>
+
+<br />
+
+
+
+## Connect Gitpod to RDS Instance
+
 
 
 
