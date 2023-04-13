@@ -151,6 +151,10 @@ The end reuslt should return the following.
 
 ## Connect Gitpod to RDS Instance
 
+To connect Gitpod to RDS, you will first need to find your Gitpod IP. You can do so by running this command in the terminal: "(curl ifconfig.me)". You can then head to your RDS security group inbound rules and enter in this information.
+
+<img src= ./images/EditInbound.png>
+
 
 
 
