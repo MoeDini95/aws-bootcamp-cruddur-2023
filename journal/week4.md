@@ -185,7 +185,7 @@ Create a file within `backend-flask/bin` and title it 'rds-update-sg-group' whic
 
 You can add this into the  `.gitpod.yml` file so that it executes when Gitpod is opened. 
 
-<img src= ./images/gityamlrule.png>
+<img src= ./images/gityamlU.png>
 
 <br />
 
