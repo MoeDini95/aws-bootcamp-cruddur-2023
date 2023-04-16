@@ -156,6 +156,39 @@ To connect Gitpod to RDS, you will first need to find your Gitpod IP. You can do
 <img src= ./images/EditInbound.png>
 
 
+<br />
+
+We will need to create a script that updates the security groups which will be convenient for when Gitpod changes its IP address everytime it launches. 
+
+<img src= ./images/EditSG.png>
+
+Setting these variables will make it easy to modify while working in Gitpod.
+
+<br />
+
+Below will allow the security group rules to be modified when using Gitpod.
+
+<img src= ./images/EditSGG.png>
+
+If the result outputs true, then the changes will reflect on the AWS management console under inbound rules. 
+
+<img src= ./images/CMIR.png>
+
+<br />
+
+
+Create a file within `backend-flask/bin` and title it 'rds-update-sg-group' which should update the security group rule when executed. 
+
+<img src= ./images/RDSScript.png>
+
+<br />
+
+You can add this into the  `.gitpod.yml` file so that it executes when Gitpod is opened. 
+
+<img src= ./images/gityamlrule.png>
+
+<br />
+
 
 
 
