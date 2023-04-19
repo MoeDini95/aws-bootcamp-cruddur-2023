@@ -189,6 +189,42 @@ You can add this into the  `.gitpod.yml` file so that it executes when Gitpod is
 
 <br />
 
+To implement a custom authorizer for Cognito, we will need to create folder within `backend-flask` titled 'lambdas' in order to create our function and send it off to Lambda. This will allow us to verify our user. 
+<img src= ./images/PostConfirm.png>
+
+We can then create a Lambda function via the AWS console and deploy it to save changes.
+<img src= ./images/LamCode.png>
+
+
+<br />
+
+
+Now we need to set the enviroment variables in Lambda. 
+
+<img src= ./images/LamVar.png>
+
+
+Next we need to add a layer. 
+
+<img src= ./images/Layer.png>
+
+<br />
+
+You will need to create a policy to allow Lambda to create a network card to allow VPC access.
+
+<img src= ./images/PolicyIAM.png>
+
+
+Once those permissions are attached, we can create the VPC within lambda. 
+
+<img src= ./images/LamVPC.png>
+
+<br />
+
+Once the VPC is created, we can finally try to sign up in Cruddur. As soon as it takes the confirmation code, it should direct you to this page.
+
+<img src= ./images/Cogtest.png>
+
 
 
 
