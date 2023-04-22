@@ -8,7 +8,7 @@
 4. [X] Bash Scripting for common database actions 
 5. [X] Install Postgres driver in backend application 
 6. [X] Connect Gitpod to RDS Instance
-7. [ ] Create AWS Cognito trigger to insert user into database 
+7. [X] Create AWS Cognito trigger to insert user into database 
 8. [ ] Create new activities with a database insert 
 
 
@@ -224,6 +224,16 @@ Once those permissions are attached, we can create the VPC within lambda.
 Once the VPC is created, we can finally try to sign up in Cruddur. As soon as it takes the confirmation code, it should direct you to this page.
 
 <img src= ./images/Cogtest.png>
+
+<br />
+
+Once you create a user via the Cruddur website, you can confirm from cloud watch logs if it succeeded or has any errors. 
+
+<img src= ./images/DBUser.png>
+As you can see in this photo, there were no errors present so we can assume the user information has been imported into our database. We can confirm this by connecting into our DB and running 'select * from users;'
+
+<img src= ./images/UserDataDB.png>
+We have successfully created an AWS Cognito trigger to insert user data into our database.
 
 
 
