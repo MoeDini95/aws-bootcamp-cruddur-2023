@@ -235,6 +235,12 @@ As you can see in this photo, there were no errors present so we can assume the 
 <img src= ./images/UserDataDB.png>
 We have successfully created an AWS Cognito trigger to insert user data into our database.
 
+<br />
+
+## Create new activities with a database insert
+
+
+
 
 
 
