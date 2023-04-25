@@ -9,7 +9,7 @@
 5. [X] Install Postgres driver in backend application 
 6. [X] Connect Gitpod to RDS Instance
 7. [X] Create AWS Cognito trigger to insert user into database 
-8. [ ] Create new activities with a database insert 
+8. [X] Create new activities with a database insert 
 
 
 
