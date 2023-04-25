@@ -27,7 +27,6 @@ class CreateReply:
         'reply_to_activity_uuid': activity_uuid
       }
     else:
-      self.create_activity()
       now = datetime.now(timezone.utc).astimezone()
       model['data'] = {
         'uuid': uuid.uuid4(),
@@ -38,20 +37,3 @@ class CreateReply:
         'reply_to_activity_uuid': activity_uuid
       }
     return model
-  def create_activity(user_uuid, message, expires_at):
-    sql = f"""
-    INSERT INTO (
-      user_uuid
-    )
-    VALUES (
-      "{user_uuid}",
-      "{message}",
-      "{expires_at}"
-    )
-    """
-    try:
-      conn = pool.connection()
-      cur = conn.cursor()
-      cur.execute(sql)
-      conn.commit()
-    except Exception as err:
