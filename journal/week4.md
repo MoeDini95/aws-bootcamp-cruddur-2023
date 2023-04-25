@@ -239,6 +239,14 @@ We have successfully created an AWS Cognito trigger to insert user data into our
 
 ## Create new activities with a database insert
 
+In Cruddur, enter in a crud and hit enter. Once you do, hit refresh and it should post the crud!
+
+<img src= ./images/CruddurActivity.png>
+
+
+You can also check while connected to your DB by running 'select * from activities;' and it should output the following;
+
+<img src= ./images/DBActivity.png>
 
 
 
