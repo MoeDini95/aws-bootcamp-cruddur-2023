@@ -2,8 +2,8 @@
 
 # Todo Checklist 
 
-1. [] Watch Week 5 Data Modelling Live Stream 
-2. [] Watch Asish's Week 5 - DynamoDB Considerations 
+1. [X] Watch Week 5 Data Modelling Live Stream 
+2. [X] Watch Asish's Week 5 - DynamoDB Considerations 
 3. [] Implement Schema Load Script 
 4. [] Implement Seed Script 
 5. [] Implement Scan Script 
