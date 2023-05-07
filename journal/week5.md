@@ -14,3 +14,14 @@
     - Implement (Pattern C) Creating a Message for an existing Message Group into Application
     - Implement (Pattern D) Creating a Message for a new Message Group into Application
     - Implement (Pattern E) Updating a Message Group using DynamoDB Streams
+
+
+
+## Implement Schema Load Script 
+
+Created a separate folder within `backend-flask` which will execute important actions to run for the local dynamodb.
+
+<img src= ./images/SchemaDDB.png>
+
+
+
