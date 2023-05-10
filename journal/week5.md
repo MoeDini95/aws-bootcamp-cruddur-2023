@@ -4,7 +4,7 @@
 
 1. [X] Watch Week 5 Data Modelling Live Stream 
 2. [X] Watch Asish's Week 5 - DynamoDB Considerations 
-3. [] Implement Schema Load Script 
+3. [X] Implement Schema Load Script 
 4. [] Implement Seed Script 
 5. [] Implement Scan Script 
 6. [] Implement Pattern Scripts for Read and List Conversations 
@@ -24,4 +24,8 @@ Created a separate folder within `backend-flask` which will execute important ac
 <img src= ./images/SchemaDDB.png>
 
 Once you run the script in the terminal, you should be able to see the following output which indicates whether you created the table. 
-<ing src>
+<ing src= ./images/CreateTable1.png>
+
+<br />
+
+
