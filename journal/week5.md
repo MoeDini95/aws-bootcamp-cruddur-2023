@@ -23,5 +23,5 @@ Created a separate folder within `backend-flask` which will execute important ac
 
 <img src= ./images/SchemaDDB.png>
 
-
-
+Once you run the script in the terminal, you should be able to see the following output which indicates whether you created the table. 
+<ing src>
