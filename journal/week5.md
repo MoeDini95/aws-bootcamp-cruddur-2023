@@ -29,3 +29,12 @@ Once you run the script in the terminal, you should be able to see the following
 <br />
 
 
+## Implement Seed Script 
+Create a Seed sdk file within `ddb` and import the following code to be able to seed your data. 
+
+<img src= ./images/Seed2.png>
+
+<br />
+
+By running the file within the terminal it should output the following seed data. 
+<img src= ./images/SeedData1.png>
