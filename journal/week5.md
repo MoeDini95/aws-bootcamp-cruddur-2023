@@ -5,8 +5,8 @@
 1. [X] Watch Week 5 Data Modelling Live Stream 
 2. [X] Watch Asish's Week 5 - DynamoDB Considerations 
 3. [X] Implement Schema Load Script 
-4. [] Implement Seed Script 
-5. [] Implement Scan Script 
+4. [X] Implement Seed Script 
+5. [X] Implement Scan Script 
 6. [] Implement Pattern Scripts for Read and List Conversations 
 7. [] Implement Update Cognito ID script for Postgres Database 
 8. [] Implement (Pattern A) Listing Messages in Message Group into Application
@@ -38,3 +38,17 @@ Create a Seed sdk file within `ddb` and import the following code to be able to 
 
 By running the file within the terminal it should output the following seed data. 
 <img src= ./images/SeedData1.png>
+
+<br />
+
+## Implement Scan Script 
+Create another file which will scan our data. 
+
+<img src= ./images/ScanScript.png>
+
+Once you run the script, it should populate data similar to this;
+<img src= ./images/ScanSD.png>
+
+<br />
+
+## Implement Pattern Scripts for Read and List Conversations 
