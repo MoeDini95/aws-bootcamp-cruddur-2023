@@ -52,3 +52,10 @@ Once you run the script, it should populate data similar to this;
 <br />
 
 ## Implement Pattern Scripts for Read and List Conversations 
+
+Firstly, we will create a new folder titled `cognito` which will list our users in the user pool.
+<img src= ./images/listusersCOG.png>
+
+Once the file is executed, it should display the users followed by the User ID or Sub in this case. 
+
+
