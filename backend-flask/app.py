@@ -105,8 +105,9 @@ cors = CORS(
 
 # Rollbar ----------
 rollbar_access_token = os.getenv('ROLLBAR_ACCESS_TOKEN')
-@app.before_first_request
-def init_rollbar():
+#@app.before_first_request
+with app.app_context():
+  def init_rollbar():
     """init rollbar module"""
     rollbar.init(
         # access token
@@ -129,6 +130,7 @@ def rollbar_test():
 @app.route("/api/message_groups", methods=['GET'])
 def data_message_groups():
   access_token = extract_access_token(request.headers)
+
   try:
     claims = cognito_jwt_token.verify(access_token)
     # authenicatied request
